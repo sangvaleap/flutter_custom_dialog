@@ -22,7 +22,7 @@ class CustomConfirmDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return Dialog(
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(AppConstant.padding),
+        borderRadius: BorderRadius.circular(AppConstant.dialogPadding),
       ),
       elevation: 0,
       backgroundColor: Colors.transparent,

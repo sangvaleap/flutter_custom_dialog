@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:custom_dialog/src/dialog_logo.dart';
 import 'package:custom_dialog/src/utils/app_constant.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class DialogBox extends StatelessWidget {
@@ -32,19 +35,22 @@ class DialogBox extends StatelessWidget {
   }
 
   Widget _buildContent(context) {
+    var bottomPadding =
+        !kIsWeb && (Platform.isIOS || Platform.isAndroid) ? AppConstant.dialogPadding / 2 : AppConstant.dialogPadding;
     return ConstrainedBox(
       constraints: BoxConstraints(minWidth: minWidth ?? 200, maxWidth: maxWidth),
       child: Container(
-        padding: EdgeInsets.only(
-          left: AppConstant.padding,
-          top: assetLogo != null ? (AppConstant.dialogLogoSize / 2) + AppConstant.padding : AppConstant.padding,
-          right: AppConstant.padding,
+        padding: EdgeInsets.fromLTRB(
+          AppConstant.dialogPadding,
+          assetLogo != null ? (AppConstant.dialogLogoSize / 2) + AppConstant.dialogPadding : AppConstant.dialogPadding,
+          AppConstant.dialogPadding,
+          bottomPadding,
         ),
         margin: const EdgeInsets.only(top: (AppConstant.dialogLogoSize / 2)),
         decoration: BoxDecoration(
           shape: BoxShape.rectangle,
           color: Theme.of(context).scaffoldBackgroundColor,
-          borderRadius: BorderRadius.circular(AppConstant.padding),
+          borderRadius: BorderRadius.circular(AppConstant.dialogPadding),
           boxShadow: const [
             BoxShadow(color: Colors.black38, offset: Offset(0, 10), blurRadius: 10),
           ],

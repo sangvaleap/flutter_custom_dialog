@@ -42,6 +42,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show success message dialog"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showMessageDialog(
@@ -53,6 +54,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show success message dialog with logo"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showMessageDialog(
@@ -63,6 +65,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show error message dialog"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showMessageDialog(
@@ -74,6 +77,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show error message dialog with logo"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showConfirmDialog(
@@ -87,6 +91,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show confirm dialog"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showConfirmDialog(
@@ -101,6 +106,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show confirm dialog with logo"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showSelectionDialog(
@@ -117,6 +123,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show select option dialog"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showSelectionDialog(
@@ -134,6 +141,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show select option dialog with logo"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showInputDialog(
@@ -151,6 +159,7 @@ class MyHomePage extends StatelessWidget {
               },
               child: const Text("Show input dialog"),
             ),
+            const SizedBox(height: 10),
             FilledButton(
               onPressed: () {
                 CustomDialog.showInputDialog(

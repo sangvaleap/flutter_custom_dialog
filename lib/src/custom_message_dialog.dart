@@ -26,7 +26,7 @@ class CustomMessgeDialog extends StatelessWidget {
     _DialogModel dialogType = _getDialogType(type);
     return Dialog(
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(AppConstant.padding),
+        borderRadius: BorderRadius.circular(AppConstant.dialogPadding),
       ),
       elevation: 0,
       backgroundColor: Colors.transparent,

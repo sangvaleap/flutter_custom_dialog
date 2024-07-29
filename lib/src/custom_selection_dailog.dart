@@ -23,7 +23,7 @@ class CustomSelectionDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return Dialog(
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(AppConstant.padding),
+        borderRadius: BorderRadius.circular(AppConstant.dialogPadding),
       ),
       elevation: 0,
       backgroundColor: Colors.transparent,
@@ -58,7 +58,7 @@ class CustomSelectionDialog extends StatelessWidget {
       itemBuilder: (_, index) {
         var option = options[index];
         return ListTile(
-          contentPadding: const EdgeInsets.symmetric(horizontal: AppConstant.padding / 2),
+          contentPadding: const EdgeInsets.symmetric(horizontal: AppConstant.dialogPadding / 2),
           leading: option.icon != null ? Icon(option.icon) : null,
           title: Text(option.text, style: const TextStyle(fontSize: 15)),
           onTap: () {
@@ -68,7 +68,7 @@ class CustomSelectionDialog extends StatelessWidget {
         );
       },
       separatorBuilder: (_, __) => const Padding(
-        padding: EdgeInsets.symmetric(horizontal: AppConstant.padding / 2),
+        padding: EdgeInsets.symmetric(horizontal: AppConstant.dialogPadding / 2),
         child: Divider(height: 0),
       ),
       itemCount: options.length,

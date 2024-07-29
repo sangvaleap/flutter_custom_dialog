@@ -8,8 +8,8 @@ class DialogLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      left: AppConstant.padding,
-      right: AppConstant.padding,
+      left: AppConstant.dialogPadding,
+      right: AppConstant.dialogPadding,
       child: Container(
         width: AppConstant.dialogLogoSize,
         height: AppConstant.dialogLogoSize,
