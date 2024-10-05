@@ -1,41 +1,21 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flutter Custom Dialog
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+The Flutter Custom Dialog package enables dynamic customization of messages, icons, and logos within your app. With a variety of flexible dialog options, you can create interactive and user-friendly experiences effortlessly. 
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+This package includes:
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- Message Dialog: Display custom messages and icons with ease.
+- Confirmation Dialog: Capture user confirmations with intuitive prompts.
+- Option Selection Dialog: Offer users multiple choices in a clean, customizable format.
+- Input Dialog: Gather user input through customizable input fields.
 
-## Features
+![message](https://github.com/user-attachments/assets/be68619c-e5cd-4866-98b2-fd57d4be73ae)
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+![confirm](https://github.com/user-attachments/assets/cc71a0b7-15f1-4e37-8f2a-cf5a9c519646)
 
-## Getting started
+![input](https://github.com/user-attachments/assets/506cb033-633a-4e34-b410-ac8f6d51da60)
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
-# custom-dialog
-# flutter_custom_dialog
+# Links
+- [LinkedIn](https://www.linkedin.com/in/sangvaleap-v/)
+- [Twitter](https://twitter.com/sangvaleap)
+- [Support my work](https://www.patreon.com/sangvaleap)
