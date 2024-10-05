@@ -9,6 +9,8 @@ This package includes:
 - Option Selection Dialog: Offer users multiple choices in a clean, customizable format.
 - Input Dialog: Gather user input through customizable input fields.
 
+Platform: Android, iOS, Web, Windows, macOS, Linux
+
 ![message](https://github.com/user-attachments/assets/be68619c-e5cd-4866-98b2-fd57d4be73ae)
 
 ![confirm](https://github.com/user-attachments/assets/cc71a0b7-15f1-4e37-8f2a-cf5a9c519646)
